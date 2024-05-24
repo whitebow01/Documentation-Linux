@@ -15,3 +15,21 @@ Discord
   sudo snap install discord
 vscode
 flatpak install flathub com.visualstudio.code
+
+
+INSTALACIONES:
+keepas
+discord
+spotify
+python
+vscode
+obs
+mysql 
+dbeaver
+sqldeveloper
+controladores de mysql para sqldeveloper
+
+
+octopi
+snap
+flatpak
