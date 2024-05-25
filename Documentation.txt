@@ -68,3 +68,20 @@ yay -S yaru-colors-icon-theme
 yay -S yaru-sound-theme  
 yay -S ttf-ms-fonts  
 yay -S ttf-ubuntu-font-family
+
+
+INSTALANDO ORACLE - XE
+
+Errores:
+
+export BUILDDIR=/tmp/makepkg
+makepkg -si
+
+export PKGDEST=/tmp/makepkg-packages
+makepkg -si
+
+export SRCDEST=/tmp/makepkg-sources
+
+makepkg -si
+
+
