@@ -33,3 +33,38 @@ controladores de mysql para sqldeveloper
 octopi
 snap
 flatpak
+COMANDOS POSTINSTALACION
+
+Comandos necesarios
+Cambiar de mirror al más cercano.
+sudo pacman-mirrors --geoip
+sudo pamac update --force-refresh
+
+sudo pacman -Sy base-devel
+
+Compresores
+sudo pacman -S xz bzip2 p7zip lbzip2 lrzip arj lzop cpio unrar
+Códecs
+sudo pacman -S jasper lame libdca libdv gst-libav libtheora libvorbis libxv wavpack x264 xvidcore dvd+rw-tools dvdauthor dvgrab libmad libmpeg2 libdvdcss libdvdread libdvdnav exfat-utils fuse-exfat a52dec faac faad2 flac
+
+Aur
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+
+Flatpak
+sudo pacman -S flatpak
+pamac install flatpak libpamac-flatpak-plugin
+
+Snap
+sudo pacman -S snapd
+sudo systemctl enable --now snapd.socket
+sudo ln -s /var/lib/snapd/snap /snap
+pamac install libpamac-snap-plugin
+sudo systemctl enable --now snapd.apparmor  
+
+yay -S yaru-colors-gtk-theme 
+yay -S yaru-colors-icon-theme 
+yay -S yaru-sound-theme  
+yay -S ttf-ms-fonts  
+yay -S ttf-ubuntu-font-family
