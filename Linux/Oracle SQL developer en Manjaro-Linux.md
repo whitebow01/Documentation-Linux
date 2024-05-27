@@ -68,9 +68,9 @@ sudo pacman -R jdk-openjdk
 Verifica: `java -version`
 
 Al verifica que tengas eso en el lanzador de aplicaciones:  
-![Captura de pantalla_20240526_203842.png](../_resources/Captura%20de%20pantalla_20240526_203842.png)  
+![Captura de pantalla_20240526_203842.png](../_resources/Captura%20de%20pantalla_20240526_203842-1.png)  
 Si no los tienes. Solo clickea sobre alguno y te enviara para que descargues los paquetes:  
-![c5dbc281fcc583aada348709efdf8b59.png](../_resources/c5dbc281fcc583aada348709efdf8b59.png)  
+![c5dbc281fcc583aada348709efdf8b59.png](../_resources/c5dbc281fcc583aada348709efdf8b59-1.png)  
 Luego clickea en ejecutar java.
 
 Finalmente, te dejara abrir sql developer.  
@@ -81,5 +81,5 @@ Si quieres instalar Oracle XE en Manjaro. A dia 26-05-2024 no se puede y si se p
 Despues de tanto buscar alguna solucion e instalando muchos packetes que crei que servirian. Encontre la solucion en DOCKER con contenedores.  
 Hice la conexion de sql a docker  
 
-<img src="../_resources/791b139cc413187d4d0f583c8b6cba0b.png" alt="791b139cc413187d4d0f583c8b6cba0b.png" width="636" height="548"><img src="../_resources/d053f471697b2cee468dfd8692f1771b.png" alt="d053f471697b2cee468dfd8692f1771b.png" width="619" height="333">
+<img src="../_resources/791b139cc413187d4d0f583c8b6cba0b-1.png" alt="791b139cc413187d4d0f583c8b6cba0b.png" width="636" height="548"><img src="../_resources/d053f471697b2cee468dfd8692f1771b-1.png" alt="d053f471697b2cee468dfd8692f1771b.png" width="619" height="333">
 
