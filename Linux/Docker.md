@@ -20,8 +20,9 @@ Esto permite que puedas ejecutar comandos de Docker sin sudo.
 sudo usermod -aG docker $USER
 ```
 * * *
-## Agregar una conexion a base de datos Oracle
+## Agregar una conexion a base de datos Oracle linux o Windows
 
+Ingresar la siguiente linea en la terminal:
 `docker pull container-registry.oracle.com/database/free:latest`
 
 Se te descargara una imagen 
@@ -34,11 +35,11 @@ docker ps
 ```
 
 Finalmente iniciamos conexion con sql:
-1. Abremos sql y creamos una nueva conexion
-- Usuario: system (ES el que tiene todos los beneficios)
-- Password: La que pusieron anteriormente
+1. Abremos sql y creamos una nueva conexion:
+- Usuario: system (Es el que tiene todos los beneficios).
+- Password: La que pusieron anteriormente.
 En detalles:
-- Cambiamos lo que dice `xe` por `free`
+- Cambiamos lo que dice `xe` por `free`.
 
 Probamos, guardamos y conectamos.
 
