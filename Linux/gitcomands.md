@@ -61,8 +61,14 @@ Para subir los archivos al servidor Remoto debemos pasar por los estados de  **A
 
 Para subir los cambios a **GITHUB** :
 ~~~
-git push origin main
+git push -u origin main
 ~~~
+Veamos en detalle:
+
+- git push: En este contexto, envía los cambios locales al repositorio remoto.
+- origin: Es el nombre del repositorio remoto por defecto, que suele ser el repositorio de donde clonaste el proyecto.
+- main: Es la rama en la que estás trabajando (puede ser otra rama si estás trabajando en una diferente).
+- -u (abreviatura de --set-upstream) establece una relación de seguimiento entre tu rama local y la rama remota. Esto significa que, después de ejecutar este comando, Git sabrá automáticamente a qué rama remota debe empujar o desde cuál obtener actualizaciones. A partir de ese momento, solo necesitas ejecutar git push o git pull sin especificar la rama ni el repositorio remoto.
 Nos pedira Clave o Key en ciertas ocasiones.
 
 Sincronizar tu rama local con la rama remota
